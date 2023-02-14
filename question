@@ -1,0 +1,171 @@
+Important Notes:
+
+Exception handling to be implemented properly
+
+Field values should be properly validated and provided with proper message.
+
+Age should be calculated based on the Date of Birth and Today’s Date. Best practice for naming the class, variables, functions etc should be strictly followed. [Ref: 10 Programming Best Practices to Name Variables, Methods and Class in Java - Examples (javarevisited.blogspot.com)]
+
+Don’t try to copy and paste the program from referencing sites. Will be evaluating the concept that you understand from the program.
+
+Welcome to Employee Management System
+
+User Login
+
+1. Enter the username : Admin
+
+2. Enter the password : password123
+
+<<NOTE : Do proper validation for authenticating>>
+
+After successful login select from the below options:
+
+1. Insert/Register a new employee
+
+2. Search Employee Details
+
+3. Update Employee Salary
+
+4. Remove an Employee from the system
+
+<<NOTE : List all the employees after each operation>>
+
+Your choice please… : ___1____
+
+>> Option Selected : Insert / Register a new employee
+
+Please fill up the below details:
+
+Id :
+
+FirstName :
+
+Surname :
+
+Mail id :
+
+Date Of Birth :
+
+Salary :
+
+Address :
+
+Date of Joining :
+
+On Success of Creation, user should get a message similar to below.
+
+User successfully registered
+
+Thanks for using the system, do you wish to continue ? [ y / n ] : y
+
+Select from the below options:
+
+1. Insert/Register a new employee
+
+2. Search Employee Details
+
+3. Update Employee Salary
+
+4. Remove an Employee from the system
+
+Your choice please… : ___2____
+
+>> Option Selected : Search employee details, Select the search criteria from the below list
+
+1. Search based on employee id
+
+2. Search based on date of joining [ between 2 values ]
+
+3. Search based on age [ between 2 values ]
+
+4. Search based on salary [ between 2 values ]
+
+Option please… : ___1____
+
+Enter the employee id to search :
+
+Result should be listed below
+
+do you wish to continue with a different search criteria ? [ y / n ] : y
+
+Option please… : ___2____
+
+Enter the start limit [ date ] :
+
+Enter the end limit [date ] :
+
+Result should be listed below sorted in the order of dates
+
+do you wish to continue with a different search criteria ? [ y / n ] : y
+
+Option please… : ___3____
+
+Enter the start limit [ age ] :
+
+Enter the end limit [age ] :
+
+Result should be listed below sorted in the order of age
+
+do you wish to continue with a different search criteria ? [ y / n ] : y
+
+Option please… : ___4____
+
+Enter the start limit [ salary ] :
+
+Enter the end limit [salary] :
+
+Result should be listed below sorted in the order of salary
+
+do you wish to continue with a different search criteria ? [ y / n ] : n
+
+Thanks for using the system, do you wish to continue ? [ y / n ] : y
+
+Select from the below options:
+
+1. Insert/Register a new employee
+
+2. Search Employee Details
+
+3. Update Employee Salary
+
+4. Remove an Employee from the system
+
+Your choice please… : ___3____
+
+>> Option Selected : Update employee salary
+
+Enter the employee id : 1001
+
+Enter the new salary to be updated : _____________
+
+If success, show a message “Salary updating for employee 1001 – Success”
+
+If failure, show a message “Salary updating for employee 1001 – Failure “
+
+Thanks for using the system, do you wish to continue ? [ y / n ] : y
+
+Select from the below options:
+
+1. Insert/Register a new employee
+
+2. Search Employee Details
+
+3. Update Employee Salary
+
+4. Remove an Employee from the system
+
+Your choice please… : ___4____
+
+>> Option Selected : Removal of employee from the system
+
+Enter the employee id : 1001
+
+If this employee id is not present in our system, user should be provided with a valid error message.
+
+If success, show a message “Removal of employee 1001 – Success”
+
+If failure, show a message “Removal of employee 1001– Failure “
+
+Thanks for using the system, do you wish to continue ? [ y / n ] : n
+
+Thanks for using the Employee management system.
